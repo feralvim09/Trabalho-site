@@ -1,89 +1,67 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Përtaci</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="Loja de roupas femininas">
-    <meta name="keywords" content="roupas, moda, feminina">
-    <meta name="author" content="Seu nome aqui">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-             <img src="Përtaci" alt="Nosso logo">
-            <ul>
-                <li>Gabriel de Lara</li>
-                <li>Fernando</li>
-            </ul>
-        </header>
-    
-    </body>
-    </html>
-
-    <header>
-      <h1>Përtaci</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Roupas</a></li>
-          <li><a href="#">Acessórios</a></li>
-          <li><a href="#">Sobre Nós</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
-    
-    <main>
-      <section class="destaque">
-        <h2>Roupas em Destaque</h2>
-        <article>
-          <img src="Camisa.jpg" alt="Camisa">
-          <h3>Camisa</h3>
-          <p>Descrição do produto e preço.</p>
-          <button>Comprar</button>
-        </article>
-        <article>
-            <img src="Camisa.jpg" alt="Camisa">
-            <h3>Camisa</h3>
-            <p>Descrição do produto e preço.</p>
-            <button>Comprar</button>
-          </article>        <article>
-            <img src="Camisa.jpg" alt="Camisa">
-            <h3>Camisa</h3>
-            <p>Descrição do produto e preço.</p>
-            <button>Comprar</button>
-          </article>        <article>
-            <img src="Camisa.jpg" alt="Camisa">
-            <h3>Camisa</h3>
-            <p>Descrição do produto e preço.</p>
-            <button>Comprar</button>
-          </article>        <article>
-            <img src="Camisa.jpg" alt="Camisa">
-            <h3>Camisa</h3>
-            <p>Descrição do produto e preço.</p>
-            <button>Comprar</button>
-          </article>        <article>
-            <img src="Camisa.jpg" alt="Camisa">
-            <h3>Camisa</h3>
-            <p>Descrição do produto e preço.</p>
-            <button>Comprar</button>
-          </article>
-        </article>
-      </section>
-    </main>
-    
-    <footer>
-      <p>Përtaci&copy; 2023</p>
-    </footer>
-  </body>
-</html>
+<head>
+    <img src="Pertaci.jpg" height="200px" width="200px" alt="logo da loja">
+  <title>Përtaci - Roupas</title>
+  <link rel="stylesheet" href="estilos.css"> <!-- Arquivo de estilo CSS para personalizar a aparência do site -->
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo à Përtaci</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="inicio">
+    <h2>Encontre as melhores roupas</h2>
+    <p>Oferecemos uma ampla seleção de roupas do mundo Geek para homens e mulheres.</p>
+    <a href="#produtos" class="botao">Ver produtos</a>
+  </section>
+  <section id="produtos">
+    <h2>Produtos</h2>
+    <ul>
+      <li>
+        <img src="Yasuo.jpg" height="200" width="200" alt="Yasuo">
+        <h3>Camisa do Yasuo</h3>
+        <p>Camisa Yasuo- League of Legends HD2</p>
+        <span class="preco">R$59,90</span>
+        <a href="#" class="botao">Comprar</a>
+      </li>
+      <li>
+        <img src="Lux.jpg" height="200" width="200" alt="Lux">
+        <h3>Camisa 2</h3>
+        <p>Camisa Personagem Lux - League of Legends HD2</p>
+        <span class="preco">R$59,90</span>
+        <a href="#" class="botao">Comprar</a>
+      </li>
+      <li>
+        <img src="Lulu.jpg" height="200" width="200" alt="Lulu">
+        <h3>Camisa 3</h3>
+        <p>Camisa Personagem Lux - League of Legends HD3</p>
+        <span class="preco">R$59,90</span>
+        <a href="#" class="botao">Comprar</a>
+      </li>
+      <li>
+        <img src="Jhin.jpg" height="200" width="200" alt="Jhin">
+        <h3>Casaco masculina</h3>
+        <p>Blusa Moletom - LOL Jhin Cosmos Negro - Casaco de Frio</p>
+        <span class="preco">R$109,90</span>
+        <a href="#" class="botao">Comprar</a>
+      </li>
+    </ul>
+  </section>
+  <section id="sobre">
+    <h2>Sobre</h2>
+    <p>A Përtaci é uma loja de roupas online que oferece as últimas tendências GSeek da moda para homens e mulheres. Nossos produtos são selecionados com cuidado para garantir qualidade e estilo aos nossos clientes.</p>
+  </section>
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato conosco para tirar dúvidas, fazer sugestões ou deixar um feedback.</p>
+    <form action="enviar_contato.php" method="post"> <!-- Substitua com o arquivo PHP que irá processar o formulário -->
+      <label for="nome">Nome: Fernandoalvimramos10@gmail.com</label>
+      <input type="text" id="Nome" name
